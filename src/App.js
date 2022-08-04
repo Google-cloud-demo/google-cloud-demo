@@ -1,13 +1,23 @@
-import React from 'react';
-import Header from './Header'
+import logo from './logo.svg';
 import './App.css';
-import Dashboard from './Dashboard';
 
 function App() {
   return (
-    <div className="container">
-      <Header></Header>
-      <Dashboard></Dashboard>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Test Project - GCP
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
